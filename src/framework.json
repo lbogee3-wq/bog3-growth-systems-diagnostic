@@ -1,0 +1,54 @@
+{
+  "version": "0.2.0",
+  "scale": {
+    "0": "Absent: no reliable capability or evidence of a repeatable practice.",
+    "1": "Reactive: activity exists, but it is inconsistent, manual, or person-dependent.",
+    "2": "Defined: a recognizable process exists, with material gaps or uneven adoption.",
+    "3": "Managed: the process is consistently used, measured, and owned.",
+    "4": "Adaptive: the system learns across functions and improves through reliable feedback loops."
+  },
+  "evidence_scale": {
+    "0": "None: assertion only or evidence unavailable.",
+    "1": "Limited: anecdotal, partial, or not recently verified.",
+    "2": "Supported: more than one relevant source or a directly observed source.",
+    "3": "Strong: triangulated, current, and directly tied to the scored capability."
+  },
+  "dimensions": {
+    "acquisition_discovery": {
+      "label": "Acquisition / discovery",
+      "weight": 1,
+      "question": "Can the right people reliably discover the organization through a coherent mix of channels?"
+    },
+    "conversion": {
+      "label": "Conversion",
+      "weight": 1,
+      "question": "Can interested people take a clear next step with low friction, and can completion be distinguished from intent?"
+    },
+    "lifecycle_follow_up": {
+      "label": "Lifecycle / follow-up",
+      "weight": 1,
+      "question": "Are prospects and customers followed up with deliberately across stages, not only at the first transaction?"
+    },
+    "customer_patient_experience": {
+      "label": "Customer / patient experience",
+      "weight": 1,
+      "question": "Does the end-to-end experience feel coherent, understandable, and responsive to human needs?"
+    },
+    "measurement_data_quality": {
+      "label": "Measurement / data quality",
+      "weight": 1,
+      "question": "Can decisions rely on trustworthy definitions, collection, and interpretation of data?"
+    },
+    "crm_martech": {
+      "label": "CRM / MarTech",
+      "weight": 1,
+      "question": "Do tools support the journey and the work without avoidable fragmentation or manual failure points?"
+    },
+    "organizational_process_alignment": {
+      "label": "Organizational / process alignment",
+      "weight": 1,
+      "question": "Are ownership, decisions, handoffs, and operating rhythms aligned around the journey?"
+    }
+  }
+}
+
