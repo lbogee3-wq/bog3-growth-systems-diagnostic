@@ -1,0 +1,214 @@
+{
+  "diagnostic_version": "0.2.0",
+  "assessment": {
+    "name": "Synthetic Birken-like specialty law practice",
+    "date": "2026-10-13",
+    "synthetic": true,
+    "context": "Fictional specialty professional-services practice serving mission-driven organizations. Values are illustrative and are not claims about Birken Law or any client."
+  },
+  "summary": {
+    "overall_maturity_score": 50.0,
+    "maturity_band": "defined-to-managed",
+    "evidence_coverage": 52.4,
+    "evidence_confidence": "moderate",
+    "interpretation": "Maturity and evidence are reported separately. Neither score is a benchmark or causal finding."
+  },
+  "dimensions": [
+    {
+      "key": "acquisition_discovery",
+      "label": "Acquisition / discovery",
+      "score": 3,
+      "maturity_percent": 75.0,
+      "evidence_quality": 2,
+      "evidence_label": "moderate",
+      "priority_score": 27.5,
+      "observations": [
+        "Specialized educational content attracts high-intent discovery across several service topics."
+      ],
+      "evidence": [
+        "Synthetic landing-page inventory",
+        "Synthetic search-query sample"
+      ],
+      "risks": [
+        "Topic visibility may not consistently route people to the best next step."
+      ],
+      "actions": [
+        "Connect priority educational journeys to the most relevant service and consultation paths."
+      ]
+    },
+    {
+      "key": "conversion",
+      "label": "Conversion",
+      "score": 2,
+      "maturity_percent": 50.0,
+      "evidence_quality": 2,
+      "evidence_label": "moderate",
+      "priority_score": 45.0,
+      "observations": [
+        "Scheduling is available, but multiple systems make funnel interpretation difficult."
+      ],
+      "evidence": [
+        "Synthetic scheduler walkthrough",
+        "Synthetic analytics event list"
+      ],
+      "risks": [
+        "Scheduler interaction may be reported as a completed consultation."
+      ],
+      "actions": [
+        "Reconcile scheduler records with analytics and define the last reliably measured completed step."
+      ]
+    },
+    {
+      "key": "lifecycle_follow_up",
+      "label": "Lifecycle / follow-up",
+      "score": 1,
+      "maturity_percent": 25.0,
+      "evidence_quality": 1,
+      "evidence_label": "low",
+      "priority_score": 72.5,
+      "observations": [
+        "Pre-consultation and post-consultation follow-up varies by matter and operator."
+      ],
+      "evidence": [
+        "Synthetic staff interview note"
+      ],
+      "risks": [
+        "Prospective clients may receive uneven guidance during a high-anxiety decision."
+      ],
+      "actions": [
+        "Map the minimum follow-up sequence from booking through engagement or respectful closeout."
+      ]
+    },
+    {
+      "key": "customer_patient_experience",
+      "label": "Customer / patient experience",
+      "score": 3,
+      "maturity_percent": 75.0,
+      "evidence_quality": 1,
+      "evidence_label": "low",
+      "priority_score": 37.5,
+      "observations": [
+        "The practice intends a high-touch experience, but direct journey evidence is limited."
+      ],
+      "evidence": [
+        "Synthetic stakeholder assertion"
+      ],
+      "risks": [
+        "Internal confidence may exceed verified client experience."
+      ],
+      "actions": [
+        "Collect structured feedback at two high-friction journey moments."
+      ]
+    },
+    {
+      "key": "measurement_data_quality",
+      "label": "Measurement / data quality",
+      "score": 1,
+      "maturity_percent": 25.0,
+      "evidence_quality": 2,
+      "evidence_label": "moderate",
+      "priority_score": 62.5,
+      "observations": [
+        "Channel and content activity are visible, but completed-booking semantics are inconsistent."
+      ],
+      "evidence": [
+        "Synthetic event audit",
+        "Synthetic scheduler comparison"
+      ],
+      "risks": [
+        "Decision-makers may confuse engagement, intent, and completed conversion."
+      ],
+      "actions": [
+        "Publish a measurement dictionary that separates CTA, scheduler start, booking completion, and retained matter."
+      ]
+    },
+    {
+      "key": "crm_martech",
+      "label": "CRM / MarTech",
+      "score": 2,
+      "maturity_percent": 50.0,
+      "evidence_quality": 2,
+      "evidence_label": "moderate",
+      "priority_score": 45.0,
+      "observations": [
+        "Core tools exist, but journey data does not move cleanly across them."
+      ],
+      "evidence": [
+        "Synthetic system map",
+        "Synthetic field sample"
+      ],
+      "risks": [
+        "Staff may reconcile records manually or work from conflicting status definitions."
+      ],
+      "actions": [
+        "Trace one consultation record end to end and remove the highest-risk manual handoff."
+      ]
+    },
+    {
+      "key": "organizational_process_alignment",
+      "label": "Organizational / process alignment",
+      "score": 2,
+      "maturity_percent": 50.0,
+      "evidence_quality": 1,
+      "evidence_label": "low",
+      "priority_score": 55.0,
+      "observations": [
+        "Responsibilities are understood informally, with limited documented decision cadence."
+      ],
+      "evidence": [
+        "Synthetic responsibility interview"
+      ],
+      "risks": [
+        "Cross-functional improvements may stall between client service, operations, and digital work."
+      ],
+      "actions": [
+        "Establish a monthly journey review with one owner, a small scorecard, and explicit decisions."
+      ]
+    }
+  ],
+  "priorities": [
+    {
+      "dimension": "lifecycle_follow_up",
+      "label": "Lifecycle / follow-up",
+      "priority_score": 72.5,
+      "why": "Rank reflects 70% maturity gap and 30% evidence uncertainty; it is a triage aid, not proof of business impact.",
+      "candidate_actions": [
+        "Map the minimum follow-up sequence from booking through engagement or respectful closeout."
+      ]
+    },
+    {
+      "dimension": "measurement_data_quality",
+      "label": "Measurement / data quality",
+      "priority_score": 62.5,
+      "why": "Rank reflects 70% maturity gap and 30% evidence uncertainty; it is a triage aid, not proof of business impact.",
+      "candidate_actions": [
+        "Publish a measurement dictionary that separates CTA, scheduler start, booking completion, and retained matter."
+      ]
+    },
+    {
+      "dimension": "organizational_process_alignment",
+      "label": "Organizational / process alignment",
+      "priority_score": 55.0,
+      "why": "Rank reflects 70% maturity gap and 30% evidence uncertainty; it is a triage aid, not proof of business impact.",
+      "candidate_actions": [
+        "Establish a monthly journey review with one owner, a small scorecard, and explicit decisions."
+      ]
+    }
+  ],
+  "system_warnings": [
+    {
+      "rule": "strong_claims_weak_measurement",
+      "interpretation": "Higher maturity claims elsewhere may be difficult to verify because measurement maturity is low."
+    },
+    {
+      "rule": "conversion_without_follow_up",
+      "interpretation": "Initial demand may be created without a reliable follow-up system, creating avoidable leakage."
+    }
+  ],
+  "limitations": [
+    "Scores reflect assessor judgment against descriptive anchors.",
+    "Default weights are equal and have not been empirically calibrated.",
+    "Priority ranking estimates gaps and uncertainty, not financial impact or causality.",
+    "The diagnostic is a structured hypothesis generator; validate findings with stakeholders and source systems."
+  ]
+}
