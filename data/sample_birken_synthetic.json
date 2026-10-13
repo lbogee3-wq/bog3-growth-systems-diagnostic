@@ -1,0 +1,65 @@
+{
+  "assessment_name": "Synthetic Birken-like specialty law practice",
+  "assessment_date": "2026-10-13",
+  "synthetic": true,
+  "context": "Fictional specialty professional-services practice serving mission-driven organizations. Values are illustrative and are not claims about Birken Law or any client.",
+  "dimensions": {
+    "acquisition_discovery": {
+      "score": 3,
+      "evidence_quality": 2,
+      "observations": ["Specialized educational content attracts high-intent discovery across several service topics."],
+      "evidence": ["Synthetic landing-page inventory", "Synthetic search-query sample"],
+      "risks": ["Topic visibility may not consistently route people to the best next step."],
+      "actions": ["Connect priority educational journeys to the most relevant service and consultation paths."]
+    },
+    "conversion": {
+      "score": 2,
+      "evidence_quality": 2,
+      "observations": ["Scheduling is available, but multiple systems make funnel interpretation difficult."],
+      "evidence": ["Synthetic scheduler walkthrough", "Synthetic analytics event list"],
+      "risks": ["Scheduler interaction may be reported as a completed consultation."],
+      "actions": ["Reconcile scheduler records with analytics and define the last reliably measured completed step."]
+    },
+    "lifecycle_follow_up": {
+      "score": 1,
+      "evidence_quality": 1,
+      "observations": ["Pre-consultation and post-consultation follow-up varies by matter and operator."],
+      "evidence": ["Synthetic staff interview note"],
+      "risks": ["Prospective clients may receive uneven guidance during a high-anxiety decision."],
+      "actions": ["Map the minimum follow-up sequence from booking through engagement or respectful closeout."]
+    },
+    "customer_patient_experience": {
+      "score": 3,
+      "evidence_quality": 1,
+      "observations": ["The practice intends a high-touch experience, but direct journey evidence is limited."],
+      "evidence": ["Synthetic stakeholder assertion"],
+      "risks": ["Internal confidence may exceed verified client experience."],
+      "actions": ["Collect structured feedback at two high-friction journey moments."]
+    },
+    "measurement_data_quality": {
+      "score": 1,
+      "evidence_quality": 2,
+      "observations": ["Channel and content activity are visible, but completed-booking semantics are inconsistent."],
+      "evidence": ["Synthetic event audit", "Synthetic scheduler comparison"],
+      "risks": ["Decision-makers may confuse engagement, intent, and completed conversion."],
+      "actions": ["Publish a measurement dictionary that separates CTA, scheduler start, booking completion, and retained matter."]
+    },
+    "crm_martech": {
+      "score": 2,
+      "evidence_quality": 2,
+      "observations": ["Core tools exist, but journey data does not move cleanly across them."],
+      "evidence": ["Synthetic system map", "Synthetic field sample"],
+      "risks": ["Staff may reconcile records manually or work from conflicting status definitions."],
+      "actions": ["Trace one consultation record end to end and remove the highest-risk manual handoff."]
+    },
+    "organizational_process_alignment": {
+      "score": 2,
+      "evidence_quality": 1,
+      "observations": ["Responsibilities are understood informally, with limited documented decision cadence."],
+      "evidence": ["Synthetic responsibility interview"],
+      "risks": ["Cross-functional improvements may stall between client service, operations, and digital work."],
+      "actions": ["Establish a monthly journey review with one owner, a small scorecard, and explicit decisions."]
+    }
+  }
+}
+

@@ -1,0 +1,52 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.invalid/bog3-growth-systems-diagnostic/input.schema.json",
+  "title": "BOG3 Growth Systems Diagnostic input",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["assessment_name", "assessment_date", "synthetic", "context", "dimensions"],
+  "properties": {
+    "assessment_name": {"type": "string", "minLength": 1},
+    "assessment_date": {"type": "string", "format": "date"},
+    "synthetic": {"type": "boolean"},
+    "context": {"type": "string", "minLength": 1},
+    "dimensions": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "acquisition_discovery",
+        "conversion",
+        "lifecycle_follow_up",
+        "customer_patient_experience",
+        "measurement_data_quality",
+        "crm_martech",
+        "organizational_process_alignment"
+      ],
+      "properties": {
+        "acquisition_discovery": {"$ref": "#/$defs/dimension"},
+        "conversion": {"$ref": "#/$defs/dimension"},
+        "lifecycle_follow_up": {"$ref": "#/$defs/dimension"},
+        "customer_patient_experience": {"$ref": "#/$defs/dimension"},
+        "measurement_data_quality": {"$ref": "#/$defs/dimension"},
+        "crm_martech": {"$ref": "#/$defs/dimension"},
+        "organizational_process_alignment": {"$ref": "#/$defs/dimension"}
+      }
+    }
+  },
+  "$defs": {
+    "dimension": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["score", "evidence_quality", "observations", "evidence", "risks", "actions"],
+      "properties": {
+        "score": {"type": "integer", "minimum": 0, "maximum": 4},
+        "evidence_quality": {"type": "integer", "minimum": 0, "maximum": 3},
+        "observations": {"type": "array", "items": {"type": "string"}},
+        "evidence": {"type": "array", "items": {"type": "string"}},
+        "risks": {"type": "array", "items": {"type": "string"}},
+        "actions": {"type": "array", "items": {"type": "string"}}
+      }
+    }
+  }
+}
+

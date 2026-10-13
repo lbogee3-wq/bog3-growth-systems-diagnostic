@@ -1,0 +1,65 @@
+{
+  "assessment_name": "Synthetic BOG3-like advisory practice",
+  "assessment_date": "2026-10-13",
+  "synthetic": true,
+  "context": "Fictional small, senior-led growth-systems advisory practice. Values are illustrative and are not claims about BOG3.",
+  "dimensions": {
+    "acquisition_discovery": {
+      "score": 2,
+      "evidence_quality": 2,
+      "observations": ["A clear point of view and website exist, but discovery depends on a narrow set of channels."],
+      "evidence": ["Synthetic website content review", "Synthetic channel inventory"],
+      "risks": ["Demand may be overly dependent on the principal's existing network."],
+      "actions": ["Map one discovery journey from problem-aware search to a relevant diagnostic entry point."]
+    },
+    "conversion": {
+      "score": 2,
+      "evidence_quality": 1,
+      "observations": ["A contact path exists, but intent and completed inquiry are not reliably distinguished."],
+      "evidence": ["Synthetic CTA inventory"],
+      "risks": ["CTA activity may be mistaken for a completed lead."],
+      "actions": ["Define and verify one completed-inquiry signal before expanding conversion reporting."]
+    },
+    "lifecycle_follow_up": {
+      "score": 1,
+      "evidence_quality": 1,
+      "observations": ["Follow-up is primarily manual and no shared stage model is visible."],
+      "evidence": ["Synthetic operating interview note"],
+      "risks": ["Qualified interest may age without a deliberate next step."],
+      "actions": ["Define a four-stage advisory pipeline and a minimum follow-up expectation for each stage."]
+    },
+    "customer_patient_experience": {
+      "score": 2,
+      "evidence_quality": 1,
+      "observations": ["The intended experience is clear, but post-engagement feedback is informal."],
+      "evidence": ["Synthetic service blueprint"],
+      "risks": ["Experience quality may depend too heavily on founder memory."],
+      "actions": ["Add a short closeout reflection that captures friction, value, and the next needed outcome."]
+    },
+    "measurement_data_quality": {
+      "score": 2,
+      "evidence_quality": 2,
+      "observations": ["Core web measurement exists, but business outcomes are not fully connected to journey signals."],
+      "evidence": ["Synthetic analytics audit", "Synthetic event inventory"],
+      "risks": ["Reporting may optimize engagement rather than qualified progression."],
+      "actions": ["Create a compact measurement map linking discovery, inquiry completion, qualification, and engagement start."]
+    },
+    "crm_martech": {
+      "score": 1,
+      "evidence_quality": 2,
+      "observations": ["Several tools support the work, but the relationship record is fragmented."],
+      "evidence": ["Synthetic tool inventory", "Synthetic workflow walkthrough"],
+      "risks": ["Manual transfer creates inconsistent context and follow-up."],
+      "actions": ["Choose one system of record and document the minimum fields required for continuity."]
+    },
+    "organizational_process_alignment": {
+      "score": 1,
+      "evidence_quality": 2,
+      "observations": ["One senior operator holds most decisions, delivery context, and follow-up."],
+      "evidence": ["Synthetic responsibility map", "Synthetic workflow walkthrough"],
+      "risks": ["The operating model has a single-person bottleneck."],
+      "actions": ["Document the recurring review rhythm and the few decisions that require explicit ownership."]
+    }
+  }
+}
+
